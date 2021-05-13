@@ -1,13 +1,3 @@
-let map;
-
-function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: -34.397, lng: 150.644 },
-    zoom: 8,
-  });
-}
-
-
 $(".button-card-1").click(function(){
    $(".par-1").slideToggle(750); 
 });
