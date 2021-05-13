@@ -1,59 +1,126 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# My Travel Map
 
-Welcome Jayage,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table Of Contents
+- [Project Overview](#project-overview)
+- [UX](#ux)
+  - [User Stories](#user-stories)
+  - [Strategy](#1-strategy)
+  - [Scope](#2-scope)
+  - [Structure](#3-structure)
+  - [Skeleton](#4-skeleton)
+  - [Surface](#5-surface)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+- [Technologies Used](#technologies-used)
+  - [Languages](#1-languages)
+  - [Workspace, Version Control, and Repository Storage](#2-workspace-version-control-and-repository-storage)
+- [Resources](#resources)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Code](#code)
+- [Acknowledgments](#acknowledgments)
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+## Project Overview
+My Travel map is a culmination of the places that I have traveled to.
+Using JavaScript I have seperated each travel location into sections: Family holidays, personal holidays, sporting events and finally places where I want to visit next.
 
-Another blue button should appear to click: _Open Browser_.
+A link to the live website can be found [here](https://jayage.github.io/my-travel-map/)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## UX
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+- As a user I want to, be able to interact with the map to view different options available.
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### 1. Strategy
 
-To log into the Heroku toolbelt CLI:
+- Create a website that showcases 
+- Create an enjoyable and easy to use website.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### 2. Scope
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+- Fits in with my current skill-set of HTML & CSS and JavaScript
+- Easy to navigate through.
 
-## Updates Since The Instructional Video
+### 3. Structure
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+As the website was built on being a single page with multiple accordian options. The accordian options will seperate the different sections like family holidays and sporting events.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### 4. Skeleton
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+- The website wireframe can be found [here](assets/documents/travelmap-wireframe.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### 5. Surface
+The overall UX is clean and clear to be easilly navigateable. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Colors:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Features
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Existing Features
 
----
+- Designed with HTML5, CSS3, JavaScript.
 
-Happy coding!
+
+## Technologies Used
+
+### 1. Languages
+
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+
+### 2. Workspace, version control, and repository storage
+
+- [Gitpod](https://www.gitpod.io/) - IDE (Integrated Development Environment) used to write the code.
+- [GitHub](https://github.com/) - Repository hosting service to host the deployed website and track previous versions of code.
+
+## Resources
+
+- [W3.CSS](https://www.w3schools.com/w3css/defaulT.asp) - General resource.
+- [Youtube](https://www.youtube.com/) - General resource.
+- [Coolors](https://coolors.co/) - Find matching color palette for site.
+- [Balsamiq](https://balsamiq.com/wireframes/) - Wireframing design tool.
+- Code Institute SLACK Community - General Resource
+
+## Code Validation
+
+- [W3C HTML](https://validator.w3.org/) - HTML Markup Validation.
+- [W3C CSS](https://jigsaw.w3.org/css-validator/) - CSS Validation.
+
+## Testing
+
+
+
+## Deployment
+### This project has been deployed on GitHub Pages with the following process:
+
+- All code was written on Gitpod, an online IDE.
+- The code was then pushed to GitHub where it is stored in my [Repository](https://github.com/Jayage/Jabba).
+- Under the settings section of the GitHub repository, scrolled down to GitHub Pages section.
+- Under 'Source' drop-down, the 'Master branch' was selected.
+- Once selected, this publishes the project to GitHub Pages and displays the site url.
+- There is no difference between the deployed version and the development version.
+- The code can be run locally through clone or download.
+- You can do this by opening the repository, clicking on the green 'Code' button and selecting either 'clone or download'.
+- The Clone option provides a url, which you can use on your desktop IDE.
+- The Download ZIP option provides a link to download a ZIP file which can be unzipped on your local machine.
+
+
+## Credits
+### Code
+
+
+
+## Acknowledgments
+- Thanks for my mentor, Excellence Ilesanm for guidence and excellent advices.
+- Thanks to all Code Institute staff.
+- Thanks to CI Slack Community for all the assistance and support.
