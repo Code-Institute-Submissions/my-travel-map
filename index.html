@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 
@@ -12,29 +14,33 @@
 </head>
 
 <body>
-    <div id="map"></div>
+    <div class="col-xs-12 col-sm-12 col-md-5 bg-color-conferences section-column">
+        <div id="map" style="position: relative; overflow: hidden;"></div>
+    </div>
 
-    <div id="cards">
+    <div class="col-xs-12 col-sm-12 col-md-7 section-column">
+        <div id="cards">
 
-        <div class="card family-visited">
-            <h2>Family Visited</h2>
-            <p class="par-1">Places I've visited with my family</p>
-            <button class="button-card-1">Family Vacations</button>
-        </div>
-        <div class="card sporting-visited">
-            <h2>Sporting Visited</h2>
-            <p class="par-2">Places I've visited while playing sports</p>
-            <button class="button-card-2">Sporting Vacations</button>
-        </div>
-        <div class="card friends-visited">
-            <h2>Visited with Friends</h2>
-            <p class="par-3">Places I've visited with my friends</p>
-            <button class="button-card-3">General Vacations</button>
-        </div>
-        <div class="card want-to-visited">
-            <h2>Places I want to visit</h2>
-            <p class="par-4">Places I want to visit</p>
-            <button class="button-card-4">Places I want to Visit</button>
+            <div class="card family-visited">
+                <h2>Family Visited</h2>
+                <p class="par-1">Places I've visited with my family</p>
+                <button class="button-card-1">Family Vacations</button>
+            </div>
+            <div class="card sporting-visited">
+                <h2>Sporting Visited</h2>
+                <p class="par-2">Places I've visited while playing sports</p>
+                <button class="button-card-2">Sporting Vacations</button>
+            </div>
+            <div class="card friends-visited">
+                <h2>Visited with Friends</h2>
+                <p class="par-3">Places I've visited with my friends</p>
+                <button class="button-card-3">General Vacations</button>
+            </div>
+            <div class="card want-to-visited">
+                <h2>Places I want to visit</h2>
+                <p class="par-4">Places I want to visit</p>
+                <button class="button-card-4">Places I want to Visit</button>
+            </div>
         </div>
     </div>
     <script async
