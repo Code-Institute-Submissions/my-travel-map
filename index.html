@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         type="text/css" />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <link rel="shortcut icon" href="#">
-
-
     <title>My Travel Map</title>
 </head>
 
 <body>
-    <div class="col-xs-12 col-sm-12 col-md-5 bg-color-conferences section-column">
-        <div id="map" style="position: relative; overflow: hidden;"></div>
-    </div>
+
+    <div id="map"></div>
 
     <div class="col-xs-12 col-sm-12 col-md-7 section-column">
         <div id="cards">
@@ -45,12 +43,8 @@
         </div>
     </div>
 
-    <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCAtRlfdoG9XGv0jk_4Fr81RNrrDCb4rTc&callback=initMap"
-        type="text/javascript"></script>
-
-        <script src="https://unpkg.com/@googlemaps/markerclustererplus/dist/index.min.js"></script>
-
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh3n17q74aGG4DQyiGqPdZegqpKKJEbaE&callback=initMap"
+        async></script>
     <script src="https://code.jquery.com/jquery-3.2.1.js"
         integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 
