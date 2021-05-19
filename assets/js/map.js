@@ -1,5 +1,5 @@
 var map, marker;
-const dublin = {lat:53.333, lng: -6.260}
+const dublin = {lat:53.333, lng: -6.260};
 
 function initMap() {
   var mapOptions = {
@@ -10,20 +10,14 @@ function initMap() {
   map = new google.maps.Map(document.getElementById("map"),
     mapOptions);
 
-  var blueIco = {
-    url: "http://maps.google.com/mapfiles/ms/icons/blue.png",
-    size: new google.maps.Size(55, 73),
-    anchor: new google.maps.Point(28, 72)
-  };
 
   var latLng = new google.maps.LatLng(53.33306, -6.260);
 
   marker = new google.maps.Marker({
     map: map,
     position: latLng,
-    animation: google.maps.Animation.DROP,
-    icon: blueIco,
-    normalIcon: blueIco
+    animation: google.maps.Animation.DROP
+    
   });
 
   google.maps.event.addListener(marker, "mouseout", function(event) {
@@ -31,7 +25,7 @@ function initMap() {
     infowindow.close();
   });
   $('.location').on('click', function() {
-    var latlonStr = $(this).data('location')
+    var latlonStr = $(this).data('location');
     var coords = latlonStr.split(",");
     var latLng = new google.maps.LatLng(coords[0], coords[1]);
     pan(latLng);
@@ -41,9 +35,7 @@ function initMap() {
     marker = new google.maps.Marker({
       map: map,
       position: latLng,
-      animation: google.maps.Animation.DROP,
-      icon: blueIco,
-      normalIcon: blueIco
+      animation: google.maps.Animation.DROP
     });
 
 
@@ -55,7 +47,7 @@ function initMap() {
 google.maps.event.addDomListener(window, 'load', initialize);
 
 function pan(latlon) {
-  map.panTo(latlon)
+  map.panTo(latlon);
 }
 
 function CenterControl(controlDiv, map) {

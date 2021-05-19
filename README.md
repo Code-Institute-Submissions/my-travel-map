@@ -97,7 +97,20 @@ The overall UX is clean and clear to be easilly navigateable.
 - [W3C CSS](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 
 ## Testing
+My code has been put through the following:
+* W3C markup validation - passed.
+* W3C CSS validation - passed.
 
+    
+## Functionality
+
+## Responsiveness
+
+## Browser Compatibility
+
+## User Stories
+
+## Bugs & fixes
 
 
 ## Deployment
