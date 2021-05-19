@@ -1,8 +1,5 @@
 # My Travel Map
 
-
-
-
 ## Table Of Contents
 - [Project Overview](#project-overview)
 - [UX](#ux)
@@ -39,18 +36,17 @@ A link to the live website can be found [here](https://jayage.github.io/my-trave
 
 ### 1. Strategy
 
-- Create a website that showcases 
+- Create a website that showcases places where I have visited and where I would like to visit.
 - Create an enjoyable and easy to use website.
 
 ### 2. Scope
 
 - Fits in with my current skill-set of HTML & CSS and JavaScript
-- Easy to navigate through.
+- Easy to navigate.
 
 ### 3. Structure
 
 As the website was built on being a single page with multiple accordian options. The accordian options will seperate the different sections like family holidays and sporting events.
-
 
 
 ### 4. Skeleton
@@ -61,6 +57,10 @@ As the website was built on being a single page with multiple accordian options.
 The overall UX is clean and clear to be easilly navigateable. 
 
 ### Colors:
+The base scheme was chosen from [Coolors](https://coolors.co/). Some different colour tones were 
+also chosen to make the website more elegant.
+
+![Palette of colors](assets/documents/coolors.png)
 
 
 ## Features
@@ -95,11 +95,13 @@ The overall UX is clean and clear to be easilly navigateable.
 
 - [W3C HTML](https://validator.w3.org/) - HTML Markup Validation.
 - [W3C CSS](https://jigsaw.w3.org/css-validator/) - CSS Validation.
+- [Google Mobile Friendly](https://search.google.com/test/mobile-friendly) - Mobile friendly validation
 
 ## Testing
 My code has been put through the following:
 * W3C markup validation - passed.
 * W3C CSS validation - passed.
+* Google Mobile Friendly - passed.
 
     
 ## Functionality
