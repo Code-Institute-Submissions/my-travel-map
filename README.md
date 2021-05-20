@@ -39,8 +39,8 @@ A link to the live website can be found [here](https://jayage.github.io/my-trave
     - I want to use interactive elements of the website.
 
 * **People who are travelling in the area**
-    - I want to to use the map to find exiting places to visit.
-    - To make decisions what places to visit based off the places that I had visited.
+    - I want to to use the map to find exciting places to visit.
+    - To have an idea of what places to visit based off the places that I had visited.
 
 ### Strategy
 
@@ -57,11 +57,11 @@ A link to the live website can be found [here](https://jayage.github.io/my-trave
 As the website was built on being a single page with multiple accordian options. The accordian options will seperate the different sections like family holidays and sporting events.
 
 
-### 4. Skeleton
+### Skeleton
 
 - The website wireframe can be found [here](assets/documents/travelmap-wireframe.png)
 
-### 5. Surface
+### Surface
 The overall UX is clean and clear to be easilly navigateable. 
 
 ### Colors:
@@ -116,13 +116,13 @@ My code has been put through the following:
     
 ### Functionality
 
-* **Button Locations**
+#### Button Locations
  - Each button functionality was tested to provide the coordinates for each map marker correctly.
 
-### Responsiveness
+#### Responsiveness
 - The website was tested on Google Mobile friendly and passed.
 
-### Bugs & fixes
+#### Bugs & fixes
 
 - There is an issue that the map sometimes doesn't load correctly after a hard refresh of the website.
 - Refreshing solves the problem.
