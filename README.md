@@ -1,18 +1,20 @@
 # My Travel Map
+![responsive image](assets/documents/demo.png "responsive image")
+
 
 ## Table Of Contents
 - [Project Overview](#project-overview)
 - [UX](#ux)
   - [User Stories](#user-stories)
-  - [Strategy](#1-strategy)
-  - [Scope](#2-scope)
-  - [Structure](#3-structure)
-  - [Skeleton](#4-skeleton)
-  - [Surface](#5-surface)
+  - [Strategy](#strategy)
+  - [Scope](#scope)
+  - [Structure](#structure)
+  - [Skeleton](#skeleton)
+  - [Surface](#surface)
 - [Features](#features)
   - [Existing Features](#existing-features)
 - [Technologies Used](#technologies-used)
-  - [Languages](#1-languages)
+  - [Languages](#languages)
   - [Workspace, Version Control, and Repository Storage](#2-workspace-version-control-and-repository-storage)
 - [Resources](#resources)
 - [Testing](#testing)
@@ -31,20 +33,26 @@ A link to the live website can be found [here](https://jayage.github.io/my-trave
 ## UX
 ### User Stories
 
-- As a user I want to, be able to interact with the map to view different options available.
+* **People with no travel plans in mind (yet) or deciding where to go:**
+    - I want to get inspiration for my travel exerience.
+    - I want to be able to understand what kind of travel experience I am being offered and explore it from the comfort of my own home. 
+    - I want to use interactive elements of the website.
 
+* **People who are travelling in the area**
+    - I want to to use the map to find exiting places to visit.
+    - To make decisions what places to visit based off the places that I had visited.
 
-### 1. Strategy
+### Strategy
 
-- Create a website that showcases places where I have visited and where I would like to visit.
-- Create an enjoyable and easy to use website.
+- To enable easy access to the information needed to plan their trip.
+- To showcase the best places to visit.
 
-### 2. Scope
+### Scope
 
 - Fits in with my current skill-set of HTML & CSS and JavaScript
 - Easy to navigate.
 
-### 3. Structure
+### Structure
 
 As the website was built on being a single page with multiple accordian options. The accordian options will seperate the different sections like family holidays and sporting events.
 
@@ -60,7 +68,7 @@ The overall UX is clean and clear to be easilly navigateable.
 The base scheme was chosen from [Coolors](https://coolors.co/). Some different colour tones were 
 also chosen to make the website more elegant.
 
-![Palette of colors](assets/documents/coolors.png)
+![Palette of colors](assets/documents/coolers.png)
 
 
 ## Features
@@ -72,13 +80,13 @@ also chosen to make the website more elegant.
 
 ## Technologies Used
 
-### 1. Languages
+### Languages
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML5)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
-### 2. Workspace, version control, and repository storage
+### Workspace, version control, and repository storage
 
 - [Gitpod](https://www.gitpod.io/) - IDE (Integrated Development Environment) used to write the code.
 - [GitHub](https://github.com/) - Repository hosting service to host the deployed website and track previous versions of code.
@@ -108,13 +116,16 @@ My code has been put through the following:
     
 ### Functionality
 
+* **Button Locations**
+ - Each button functionality was tested to provide the coordinates for each map marker correctly.
+
 ### Responsiveness
-
-### Browser Compatibility
-
-### User Stories
+- The website was tested on Google Mobile friendly and passed.
 
 ### Bugs & fixes
+
+- There is an issue that the map sometimes doesn't load correctly after a hard refresh of the website.
+- Refreshing solves the problem.
 
 
 ## Deployment
@@ -134,7 +145,7 @@ My code has been put through the following:
 
 ## Credits
 ### Code
-
+[Google Developer platform](https://developers.google.com/maps/gmp-get-started) For documentation and tutorials on how to use their maps API.
 
 
 ## Acknowledgments
