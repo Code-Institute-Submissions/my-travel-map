@@ -104,15 +104,15 @@ My code has been put through the following:
 * Google Mobile Friendly - passed.
 
     
-## Functionality
+### Functionality
 
-## Responsiveness
+### Responsiveness
 
-## Browser Compatibility
+### Browser Compatibility
 
-## User Stories
+### User Stories
 
-## Bugs & fixes
+### Bugs & fixes
 
 
 ## Deployment
