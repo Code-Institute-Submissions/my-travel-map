@@ -96,12 +96,14 @@ also chosen to make the website more elegant.
 - [W3C HTML](https://validator.w3.org/) - HTML Markup Validation.
 - [W3C CSS](https://jigsaw.w3.org/css-validator/) - CSS Validation.
 - [Google Mobile Friendly](https://search.google.com/test/mobile-friendly) - Mobile friendly validation
+- [JSHint](https://jshint.com/) - JavaScript validator
 
 ## Testing
 My code has been put through the following:
 * W3C markup validation - passed.
 * W3C CSS validation - passed.
 * Google Mobile Friendly - passed.
+* JSHint - One unused variable "initMap" but was called in the HTML.
 
     
 ### Functionality

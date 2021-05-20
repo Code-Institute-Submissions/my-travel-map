@@ -22,7 +22,6 @@ function initMap() {
 
   google.maps.event.addListener(marker, "mouseout", function(event) {
     this.setIcon(this.normalIcon);
-    infowindow.close();
   });
   $('.location').on('click', function() {
     var latlonStr = $(this).data('location');
@@ -44,7 +43,7 @@ function initMap() {
   CenterControl(centerControlDiv, map);
   map.controls[google.maps.ControlPosition.TOP_CENTER].push(centerControlDiv);
 }
-google.maps.event.addDomListener(window, 'load', initialize);
+
 
 function pan(latlon) {
   map.panTo(latlon);

@@ -10,4 +10,3 @@ $(".button-card-3").click(function(){
 $(".button-card-4").click(function(){
    $(".par-4").slideToggle(750); 
 });
-

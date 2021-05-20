@@ -1,24 +1,29 @@
-html,body{
+html,
+body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #211A1E;
-    color: #FDE74C;
+    background-color: #9BC53D;
+    color: #211A1E;
 }
-#cards{
-    display: block;
 
+#cards {
+    display: block;
 }
-h2, h4{
+
+h2,
+h4 {
     text-align: center;
 }
+
 .card {
-	margin-top: 10px;
-	padding: 20px;
-    background-color: #211A1E;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #9BC53D;
 }
-ul{
+
+ul {
     list-style-type: none;
 }
 
@@ -27,35 +32,35 @@ button {
     border-radius: 4px;
     display: block;
     width: 100%;
-    background-color: #5BC0EB;
+    background-color: #211A1E;
     text-align: center;
     padding: 1em .75em;
     text-decoration: none;
-    color: #FDE74C;
-	font-size: 1em
+    color: #5BC0EB;
+    font-size: 1em
 }
+
 .button {
     box-sizing: border-box;
     border-radius: 4px;
     margin-bottom: 1vh;
-    border: 1.5px #000 solid ;
+    border: 1.5px #000 solid;
     display: block;
     width: 85%;
-    background-color: #5BC0EB;
+    background-color: #211A1E;
     text-align: center;
     padding: 1em .75em;
     text-decoration: none;
-    color: #FDE74C;
+    color: #5BC0EB;
     font-size: 1em;
 }
-.button:hover{
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    text-decoration: none;
 
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
 }
 
 #map {
-  height: 50vh;
-  width: 100vw;
+    height: 50vh;
+    width: 100vw;
 }
-
